@@ -1,12 +1,12 @@
 class RegionProxy < Formula
   desc "CLI tool to create a SOCKS proxy through AWS EC2 in any region"
   homepage "https://github.com/M-Igashi/region-proxy"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     url "https://github.com/M-Igashi/region-proxy/releases/download/v#{version}/region-proxy-v#{version}-macos.tar.gz"
-    sha256 "0ff083d3df873491b779f6d511d69ef127326358b203ff9d553962956fc25354"
+    sha256 "8d9b1fc1ab32b209403d5282e97100cbce3a020b71d0179d9bd31077302334b6"
   end
 
   def install
