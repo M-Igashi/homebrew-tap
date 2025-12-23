@@ -1,0 +1,39 @@
+name: Update Formula
+
+on:
+  repository_dispatch:
+    types: [update-formula]
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Update formula
+        run: |
+          VERSION="${{ github.event.client_payload.version }}"
+          SHA256="${{ github.event.client_payload.sha256 }}"
+          
+          # Remove 'v' prefix if present
+          VERSION_NUM="${VERSION#v}"
+          
+          echo "Updating formula to version $VERSION_NUM with SHA256: $SHA256"
+          
+          # Update version
+          sed -i "s/version \".*\"/version \"$VERSION_NUM\"/" Formula/region-proxy.rb
+          
+          # Update SHA256
+          sed -i "s/sha256 \".*\"/sha256 \"$SHA256\"/" Formula/region-proxy.rb
+          
+          cat Formula/region-proxy.rb
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add Formula/region-proxy.rb
+          git commit -m "Update region-proxy to ${{ github.event.client_payload.version }}"
+          git push
