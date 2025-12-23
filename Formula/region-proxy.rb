@@ -6,7 +6,7 @@ class RegionProxy < Formula
 
   on_macos do
     url "https://github.com/M-Igashi/region-proxy/releases/download/v#{version}/region-proxy-v#{version}-macos.tar.gz"
-    sha256 "PLACEHOLDER_SHA256"
+    sha256 "0ff083d3df873491b779f6d511d69ef127326358b203ff9d553962956fc25354"
   end
 
   def install
