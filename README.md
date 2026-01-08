@@ -1,11 +1,28 @@
-# Homebrew Tap for region-proxy
+# Homebrew Tap
 
-This is the Homebrew tap for [region-proxy](https://github.com/M-Igashi/region-proxy).
+Personal Homebrew tap for my tools.
 
 ## Installation
 
 ```bash
 brew tap M-Igashi/tap
+```
+
+## Available Formulas
+
+### flipdf
+
+Merge duplex-scanned PDFs into proper page order — for home scanners without auto-duplex.
+
+```bash
+brew install flipdf
+```
+
+### region-proxy
+
+A CLI tool to create a SOCKS proxy through AWS EC2 in any region.
+
+```bash
 brew install region-proxy
 ```
 
@@ -13,18 +30,12 @@ brew install region-proxy
 
 ```bash
 brew update
-brew upgrade region-proxy
+brew upgrade <formula>
 ```
 
 ## Uninstalling
 
 ```bash
-brew uninstall region-proxy
+brew uninstall <formula>
 brew untap M-Igashi/tap
 ```
-
-## About region-proxy
-
-A CLI tool to create a SOCKS proxy through AWS EC2 in any region. Useful when you need to access region-restricted content or services from a specific geographic location.
-
-For more information, see the [main repository](https://github.com/M-Igashi/region-proxy).
