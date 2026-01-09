@@ -7,16 +7,10 @@ class Headroom < Formula
   license "MIT"
 
   depends_on "ffmpeg"
+  depends_on "mp3gain"
 
   def install
     bin.install "headroom"
-  end
-
-  def caveats
-    <<~EOS
-      For MP3 support, install mp3gain:
-        brew install mp3gain
-    EOS
   end
 
   test do
