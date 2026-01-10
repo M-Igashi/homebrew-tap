@@ -1,9 +1,9 @@
 class Headroom < Formula
   desc "Audio loudness analyzer and gain adjustment tool for mastering and DJ workflows"
   homepage "https://github.com/M-Igashi/headroom"
-  url "https://github.com/M-Igashi/headroom/releases/download/v0.5.2/headroom-v0.5.2-macos-universal.tar.gz"
-  sha256 "edbcc604a78f03248fe2568f25e879bd2662e733a381091cc75b044e268ff1ec"
-  version "0.5.2"
+  url "https://github.com/M-Igashi/headroom/releases/download/v1.0.0/headroom-v1.0.0-macos-universal.tar.gz"
+  sha256 "c9df093c5c9f99e64b9e949b0ace37017e1472802062b798cbfee22555cd90b2"
+  version "1.0.0"
   license "MIT"
 
   depends_on "ffmpeg"
