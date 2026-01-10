@@ -7,7 +7,6 @@ class Headroom < Formula
   license "MIT"
 
   depends_on "ffmpeg"
-  depends_on "mp3gain"
 
   def install
     bin.install "headroom"
