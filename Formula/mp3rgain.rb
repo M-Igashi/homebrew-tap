@@ -1,9 +1,9 @@
 class Mp3rgain < Formula
   desc "Lossless MP3 volume adjustment - a modern mp3gain replacement written in Rust"
   homepage "https://github.com/M-Igashi/mp3rgain"
-  url "https://github.com/M-Igashi/mp3rgain/releases/download/v0.1.0/mp3rgain-v0.1.0-macos-universal.tar.gz"
-  sha256 "00278d344c5a8d51c8812e8f473f83267e615c43b0239598060fcb2a8d0e591e"
-  version "0.1.0"
+  url "https://github.com/M-Igashi/mp3rgain/releases/download/v0.3.0/mp3rgain-v0.3.0-macos-universal.tar.gz"
+  sha256 "ae0c892380be30409e77e3c06ea9ae0c3acf9bcbda73082058aa921e70b1dcc7"
+  version "0.3.0"
   license "MIT"
 
   def install
@@ -11,6 +11,6 @@ class Mp3rgain < Formula
   end
 
   test do
-    assert_match "mp3rgain", shell_output("#{bin}/mp3rgain --version")
+    assert_match "mp3rgain", shell_output("#{bin}/mp3rgain -v")
   end
 end
