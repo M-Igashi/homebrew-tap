@@ -7,6 +7,7 @@ class Headroom < Formula
   license "MIT"
 
   depends_on "ffmpeg"
+  depends_on "m-igashi/tap/mp3rgain"
 
   def install
     bin.install "headroom"
