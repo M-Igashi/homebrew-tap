@@ -1,9 +1,9 @@
 class Mp3rgain < Formula
   desc "Lossless MP3/M4A volume adjustment - a modern mp3gain replacement written in Rust"
   homepage "https://github.com/M-Igashi/mp3rgain"
-  url "https://github.com/M-Igashi/mp3rgain/releases/download/v1.2.3/mp3rgain-v1.2.3-macos-universal.tar.gz"
-  sha256 "b941361c00f3767def6e6887b04249b01bf2c2af01f1b2bba712e9c6ded0b877"
-  version "1.2.3"
+  url "https://github.com/M-Igashi/mp3rgain/releases/download/v1.2.4/mp3rgain-v1.2.4-macos-universal.tar.gz"
+  sha256 "072c157cd2b4f4f51c3f977848e9bed83f273d7dd1f3903b2681a7ea6bce16ad"
+  version "1.2.4"
   license "MIT"
 
   def install
