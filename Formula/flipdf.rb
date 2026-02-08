@@ -1,9 +1,9 @@
 class Flipdf < Formula
   desc "CLI tool to reverse page order in PDF files"
   homepage "https://github.com/M-Igashi/flipdf"
-  url "https://github.com/M-Igashi/flipdf/releases/download/v1.0.0/flipdf-v1.0.0-macos.tar.gz"
-  sha256 "81897a9a89dfc3e320b51947c2459a4ba83155ceb4d886966e0fcd50abaf573b"
-  version "1.0.0"
+  url "https://github.com/M-Igashi/flipdf/releases/download/v1.0.1/flipdf-v1.0.1-macos.tar.gz"
+  sha256 "fd055d1348fc2ff0c0c910655e6d409357582996f71c55b387755dec910a53c7"
+  version "1.0.1"
   license "MIT"
 
   def install
