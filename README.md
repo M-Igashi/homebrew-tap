@@ -8,6 +8,16 @@ Personal Homebrew tap for my tools.
 brew tap M-Igashi/tap
 ```
 
+## Available Casks
+
+### Markdown Studio
+
+Markdown editor with spreadsheet-like table editing.
+
+```bash
+brew install --cask markdown-studio
+```
+
 ## Available Formulas
 
 ### flipdf
