@@ -1,6 +1,6 @@
 cask "markupsidedown" do
-  version "0.1.6"
-  sha256 "9e5f4f7aefca241189cf0563dd12aa671795f2a127acee7a7cc426c79bd9d204"
+  version "0.1.7"
+  sha256 "b7dcf35be85e0ec10297a934733a7fdae6068af821bd7b893cdf6842f410f23f"
 
   url "https://github.com/M-Igashi/markupsidedown/releases/download/v#{version}/MarkUpsideDown_#{version}_universal.dmg"
   name "MarkUpsideDown"
