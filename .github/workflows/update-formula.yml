@@ -4,6 +4,9 @@ on:
   repository_dispatch:
     types: [update-formula]
 
+permissions:
+  contents: read
+
 jobs:
   update:
     runs-on: ubuntu-latest
