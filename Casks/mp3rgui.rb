@@ -1,6 +1,6 @@
 cask "mp3rgui" do
-  version "2.0.3"
-  sha256 "d27fa4558d7b41b6434846eb45ce04d8ca7eb89e5bb10f0d30d733cbb80763c8"
+  version "2.0.4"
+  sha256 "7128f255ac51dc77081a0845b98b2fdb7b61b8cd0f34d98b762e16dac62656ce"
 
   url "https://github.com/M-Igashi/mp3rgain/releases/download/v#{version}/mp3rgui-v#{version}-macos-universal.dmg"
   name "mp3rgui"
