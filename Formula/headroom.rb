@@ -8,6 +8,8 @@ class Headroom < Formula
 
   depends_on "ffmpeg"
 
+  deprecate! date: "2026-07-08", because: "it is renamed to baken (Bake'n Deck) — install with `brew install M-Igashi/tap/baken`"
+
   def install
     bin.install "headroom"
   end
