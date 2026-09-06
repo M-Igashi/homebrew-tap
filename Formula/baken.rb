@@ -1,9 +1,9 @@
 class Baken < Formula
   desc "Audio loudness analyzer and gain adjustment tool for mastering and DJ workflows"
   homepage "https://github.com/M-Igashi/baken"
-  url "https://github.com/M-Igashi/baken/releases/download/v3.2.0/baken-v3.2.0-macos-universal.tar.gz"
-  sha256 "62d5bc393a76914328e41a141bf15409861c84b1df378e341513c49eb9dad7c9"
-  version "3.2.0"
+  url "https://github.com/M-Igashi/baken/releases/download/v3.2.1/baken-v3.2.1-macos-universal.tar.gz"
+  sha256 "f771fe7147a03e4022cc7be5eb61626b29378d21647963e47eb0720657bb9a5e"
+  version "3.2.1"
   license "MIT"
 
   depends_on "ffmpeg"
