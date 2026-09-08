@@ -9,8 +9,8 @@ cask "markupsidedown" do
 
   app "MarkUpsideDown.app"
 
-  postflight do
-    system_command "/usr/bin/xattr", args: ["-cr", "#{appdir}/MarkUpsideDown.app"]
+  postflight_steps do
+    run "/usr/bin/xattr", args: ["-cr", "{{appdir}}/MarkUpsideDown.app"]
   end
 
   zap trash: [
