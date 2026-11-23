@@ -1,9 +1,9 @@
 class Flipdf < Formula
   desc "Merge duplex-scanned PDFs into proper page order"
   homepage "https://github.com/M-Igashi/flipdf"
-  url "https://github.com/M-Igashi/flipdf/releases/download/v1.0.6/flipdf-v1.0.6-macos.tar.gz"
-  sha256 "30cc753d136c6b2d7a017729a79b603fdc0612d387f6832aee49d0e3e3bc3caf"
-  version "1.0.6"
+  url "https://github.com/M-Igashi/flipdf/releases/download/v1.0.7/flipdf-v1.0.7-macos.tar.gz"
+  sha256 "f08d7e54eda0ff691afe0047721f38d76cd0c79ffb02e28fb6b9e2952fb4babb"
+  version "1.0.7"
   license "MIT"
 
   depends_on "qpdf"
